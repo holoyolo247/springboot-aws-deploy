@@ -32,3 +32,8 @@ artifacts:
   files:
     - imagedefinitions.json
     - target/springboot-aws-deploy.jar
+cache:
+  paths:
+    - '/root/.m2/**/*'
+  modes:
+    - LOCAL_DOCKER_LAYER_CACHE
