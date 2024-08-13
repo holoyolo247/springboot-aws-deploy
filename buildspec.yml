@@ -35,5 +35,4 @@ artifacts:
 cache:
   paths:
     - '/root/.m2/**/*'
-  mode:
-    - LOCAL_DOCKER_LAYER_CACHE
+
