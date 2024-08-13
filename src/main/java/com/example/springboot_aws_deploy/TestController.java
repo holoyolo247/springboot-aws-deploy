@@ -11,4 +11,9 @@ public class TestController {
     public  String GetData(){
         return "First message from AWS Ecs";
     }
+
+    @GetMapping(".data")
+    public String getMessage(){
+        return "Second message from AWS Ecs "
+    }
 }
